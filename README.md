@@ -11,3 +11,5 @@ python generate.py 432 > wave432.wav
 # If you want to convert wav to mp3:
 ffmpeg -i wave432.wav -codec:a libmp3lame -qscale:a 2 wave432.mp3
 ```
+
+**This app makes use of [wavebender](https://github.com/zacharydenton/wavebender) package.**
